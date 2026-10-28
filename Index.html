@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Treats | Cake Ordering</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h2>🎂 Sweet Treats</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#cakes">Our Cakes</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div>
+            <p class="tagline">MADE WITH LOVE</p>
+            <h1>Make Every Celebration Sweeter!</h1>
+            <p>Discover delicious cakes made for your special moments.</p>
+            <a href="#cakes" class="btn">Order Your Cake</a>
+        </div>
+    </section>
+
+    <section class="cakes" id="cakes">
+        <h2>Our Special Cakes</h2>
+        <p class="subtitle">Choose your favourite flavour</p>
+
+        <div class="cake-container">
+
+            <div class="cake-card">
+                <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600"
+                     alt="Chocolate cake">
+                <h3>Chocolate Cake</h3>
+                <p>Rich chocolate and creamy frosting.</p>
+                <h4>₹550</h4>
+                <button onclick="orderCake('Chocolate Cake', 550)">
+                    Order Now
+                </button>
+            </div>
+
+            <div class="cake-card">
+                <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600"
+                     alt="Strawberry cake">
+                <h3>Strawberry Cake</h3>
+                <p>Fresh strawberry and soft cream.</p>
+                <h4>₹650</h4>
+                <button onclick="orderCake('Strawberry Cake', 650)">
+                    Order Now
+                </button>
+            </div>
+
+            <div class="cake-card">
+                <img src="https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=600"
+                     alt="Birthday cake">
+                <h3>Birthday Cake</h3>
+                <p>A beautiful cake for your celebrations.</p>
+                <h4>₹750</h4>
+                <button onclick="orderCake('Birthday Cake', 750)">
+                    Order Now
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Make Your Day Special</h2>
+        <p>Fresh cakes for every celebration.</p>
+        <a href="#cakes" class="btn">Explore Cakes</a>
+    </section>
+
+    <footer>
+        <p>© 2026 Sweet Treats | Cake Ordering System</p>
+        <p>UI/UX Design Internship Project</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
